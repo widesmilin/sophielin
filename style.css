@@ -27,3 +27,12 @@ header ul a{
     text-decoration: none;
     color:#030616;
 }
+@media (min-width: 768px){
+    header nav ul{
+        flex-direction: row;
+    }
+
+    header nav ul li{
+        border-bottom: none;
+    } 
+}
